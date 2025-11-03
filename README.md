@@ -1,6 +1,6 @@
-# these are clouds
+# clouds
 ## About
-[these are clouds](https://danateagle.com/cloud) is a website with photos of clouds that I've seen.
+[clouds](https://danateagle.com/cloud) is a website for my cloud photography.
 
 ## Attributions
 - [Moderustic typeface](https://fonts.google.com/specimen/Moderustic)
