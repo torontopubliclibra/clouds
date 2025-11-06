@@ -292,6 +292,7 @@ body {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  pointer-events: none;
 }
 
 footer {

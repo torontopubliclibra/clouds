@@ -21,6 +21,7 @@ body {
     width: calc(100vw - 40px);
     height: auto;
     object-fit: cover;
+    pointer-events: none;
 }
 
 footer {
