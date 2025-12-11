@@ -1,23 +1,34 @@
-Moderustic Variable Font
-========================
+Source Code Pro Variable Font
+=============================
 
-This download contains Moderustic as both a variable font and static fonts.
+This download contains Source Code Pro as both variable fonts and static fonts.
 
-Moderustic is a variable font with this axis:
+Source Code Pro is a variable font with this axis:
   wght
 
-This means all the styles are contained in a single file:
-  Moderustic-VariableFont_wght.ttf
+This means all the styles are contained in these files:
+  SourceCodePro-VariableFont_wght.ttf
+  SourceCodePro-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Moderustic:
-  static/Moderustic-Light.ttf
-  static/Moderustic-Regular.ttf
-  static/Moderustic-Medium.ttf
-  static/Moderustic-SemiBold.ttf
-  static/Moderustic-Bold.ttf
-  static/Moderustic-ExtraBold.ttf
+in those cases you can use the static font files for Source Code Pro:
+  static/SourceCodePro-ExtraLight.ttf
+  static/SourceCodePro-Light.ttf
+  static/SourceCodePro-Regular.ttf
+  static/SourceCodePro-Medium.ttf
+  static/SourceCodePro-SemiBold.ttf
+  static/SourceCodePro-Bold.ttf
+  static/SourceCodePro-ExtraBold.ttf
+  static/SourceCodePro-Black.ttf
+  static/SourceCodePro-ExtraLightItalic.ttf
+  static/SourceCodePro-LightItalic.ttf
+  static/SourceCodePro-Italic.ttf
+  static/SourceCodePro-MediumItalic.ttf
+  static/SourceCodePro-SemiBoldItalic.ttf
+  static/SourceCodePro-BoldItalic.ttf
+  static/SourceCodePro-ExtraBoldItalic.ttf
+  static/SourceCodePro-BlackItalic.ttf
 
 Get started
 -----------

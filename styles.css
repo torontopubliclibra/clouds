@@ -1,3 +1,36 @@
+/* Horizontal scrolling for main content */
+.horizontal-scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+
+/* Hide vertical scrollbar for a cleaner look */
+.horizontal-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+.horizontal-scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+.horizontal-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Make child sections full viewport for effect */
+.horizontal-scroll-container > section {
+  min-width: 750px;
+  height: 100vh;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -230,16 +263,15 @@ html {
 }
 
 @font-face {
-  font-family: "Moderustic";
-  src: url(/fonts/Moderustic/Moderustic-VariableFont_wght.ttf) format("truetype");
+  font-family: "Source Code Pro";
+  src: url(/fonts/source_code_pro/SourceCodePro-VariableFont_wght.ttf) format("truetype");
   font-display: swap;
 }
 * {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 body, header, footer, button, select, a {
-  text-transform: lowercase;
   color: #c0c5d2;
 }
 
@@ -253,11 +285,10 @@ a {
 }
 
 body, button, input, select {
-  font-family: "Moderustic", sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-display: swap;
   font-weight: 500;
   line-height: 1.6;
-  text-transform: lowercase;
   text-decoration: none;
 }
 
@@ -282,13 +313,14 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  gap: 20px;
 }
 
 .cloud-pic {
   margin: 0 auto;
+  margin-top: -50px;
   padding: 0;
-  width: calc(100vw - 40px);
+  width: 100vw;
+  min-width: 750px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -296,6 +328,7 @@ body {
 }
 
 footer {
+  height: 50px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -303,5 +336,4 @@ footer {
   align-items: center;
   gap: 10px;
   padding: 25px;
-  padding-top: 0;
 }
